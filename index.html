@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/main.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-5">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 fw-medium" href="#"><img src="src/images/TP-logo.webp" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fw-medium text-black" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100">
+                    <li class="nav-item dropdown dropdown-hover px-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Car Tyres
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">MRF Tyres</a></li>
+                            <li><a class="dropdown-item" href="#">CEAT Tyres</a></li>
+                            <li><a class="dropdown-item" href="#">Goodbye Tyres</a></li>
+                            <li><a class="dropdown-item" href="#">Apollo Tyres</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover px-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Bike Tyres
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">MRF Tyres</a></li>
+                            <li><a class="dropdown-item" href="#">CEAT Tyres</a></li>
+                            <li><a class="dropdown-item" href="#">Goodbye Tyres</a></li>
+                            <li><a class="dropdown-item" href="#">Apollo Tyres</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown-hover px-2">
+                        <a class="nav-link" href="#">Tyre Pressure</a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover px-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Commercial Tyres
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">All Commercial Tyres</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover px-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Accessories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Batterires</a></li>
+                            <li><a class="dropdown-item" href="#">Alloy Wheels</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover px-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Cashback Offers</a></li>
+                            <li><a class="dropdown-item" href="#">Find Tyre Dealers</a></li>
+                            <li><a class="dropdown-item" href="#">Compare Tyres</a></li>
+                            <li><a class="dropdown-item" href="#">Wheel Balancing</a></li>
+                            <li><a class="dropdown-item" href="#">Wheel Alignment</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+                <span class="navbar-text fs-5">
+                    Login
+                </span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- dealer information -->
+    <section class="d-flex align-items-center justify-content-center m-5 p-4 shadow-sm rounded">
+        <div id="seller-overview" class="d-flex flex-column">
+            <div id="seller-name" class="d-flex">
+                <h4>SHREE HEMKUNT TYRES AND SERVICES</h4>
+                <span> ✔ Verified</span>
+            </div>
+            <div id="seller-rating" class="d-flex mt-2">
+                <p class="m-1 ">4.9</p>
+                <span class="m-1">⭐⭐⭐⭐</span>
+                <p class="m-1 ">2278 Reviews</p>
+                <button class="m-1 py-0 px-1 btn btn-outline-secondary ">Rate</button>
+            </div>
+            <div id="seller-address">
+                <div class="my-2 d-flex">
+                    <span class="mx-2">🗺</span>
+                    <p class="">
+                        PLOT NUMBER-09 GROUND FLOOR CISF CAMPUS ROAD, AHINSA KHAND-02 INDIRAPURAM, Ghaziabad, Uttar
+                        Pradesh, 201014
+                    </p>
+                </div>
+                <div class="my-2 d-flex">
+                    <span class="mx-2">⏲</span>
+                    <p class="text-dark-emphasis">Open - Monday to Sunday - 10:00AM to 8:00PM</p>
+                </div>
+                <button class=" px-5 btn btn-outline-danger">Get Directions</button>
+            </div>
+        </div>
+
+        <!-- carousel -->
+        <div class="d-flex overflow-auto align-items-center justify-content-center no-scrollbar w-75">
+            <div class=" m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/img1.jpg" alt="mrf tyres" class="rounded">
+
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/img2.jpg" alt="CEAT tyres" class="rounded">
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/img1.jpg" alt="mrf tyres" class="rounded">
+
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/img2.jpg" alt="CEAT tyres" class="rounded">
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- reviews -->
+
+    <section class="d-flex flex-column m-5 p-4 section ">
+        <h4>Google Reviews</h4>
+        <div class="d-flex overflow-auto align-items-center justify-content-center no-scrollbar">
+            <div class=" m-2 border rounded px-3 py-1 flex-shrink-0 w-25">
+                <div class="d-flex flex-column flex-wrap py-2">
+
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="badge text-bg-danger px-3 py-2 fs-6">P</span>
+                        <h6 class="m-1 p-1">Praveen Kumar</h6>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat voluptatibus explicabo,
+                        aliquid vel</p>
+                </div>
+            </div>
+            <div class=" m-2 border  rounded px-3 py-1 flex-shrink-0 w-25">
+                <div class="d-flex flex-column flex-wrap py-2">
+
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="badge text-bg-success px-3 py-2 fs-6">S</span>
+                        <h6 class="m-1 p-1">Surjit Kumar</h6>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat voluptatibus explicabo,
+                        aliquid vel</p>
+                </div>
+            </div>
+            <div class=" m-2 border  rounded px-3 py-1 flex-shrink-0 w-25">
+                <div class="d-flex flex-column flex-wrap py-2">
+
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="badge text-bg-danger px-3 py-2 fs-6">R</span>
+                        <h6 class="m-1 p-1">Rohit Bhatti</h6>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat voluptatibus explicabo,
+                        aliquid vel</p>
+                </div>
+            </div>
+
+            <div class=" m-2 border rounded px-3 py-1 flex-shrink-0 w-25">
+                <div class="d-flex flex-column flex-wrap py-2">
+
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="badge text-bg-success px-3 py-2 fs-6">S</span>
+                        <h6 class="m-1 p-1">Surjit Kumar</h6>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat voluptatibus explicabo,
+                        aliquid vel</p>
+                </div>
+            </div>
+            <div class=" m-2 border  rounded px-3 py-1 flex-shrink-0 w-25">
+                <div class="d-flex flex-column flex-wrap py-2">
+
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="badge text-bg-danger px-3 py-2 fs-6">P</span>
+                        <h6 class="m-1 p-1">Praveen Kumar</h6>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat voluptatibus explicabo,
+                        aliquid vel</p>
+                </div>
+            </div>
+            <div class=" m-2 border rounded px-3 py-1 flex-shrink-0 w-25">
+                <div class="d-flex flex-column flex-wrap py-2">
+
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="badge text-bg-success px-3 py-2 fs-6">R</span>
+                        <h6 class="m-1 p-1">Rohit Bhatti</h6>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat voluptatibus explicabo,
+                        aliquid vel</p>
+                </div>
+            </div>
+            <div class=" m-2 border  rounded px-3 py-1 flex-shrink-0 w-25">
+                <div class="d-flex flex-column flex-wrap py-2">
+
+                    <div class="d-flex align-items-center mb-2">
+                        <span class="badge text-bg-danger px-3 py-2 fs-6">P</span>
+                        <h6 class="m-1 p-1">Praveen Kumar</h6>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugiat voluptatibus explicabo,
+                        aliquid vel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Deals  -->
+
+    <section class="d-flex flex-column m-5 p-4">
+        <h4>Deals in</h4>
+        <div class="d-flex overflow-auto align-items-center justify-content-center no-scrollbar">
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/mrf-logo.png" alt="mrf tyres" class="img-fluid brand-logo">
+                <p>MRF</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/ceat-logo.avif" alt="CEAT tyres" class="img-fluid brand-logo">
+                <p>CEAT</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/apollo-tyres-brand-logo.png" alt="mrf tyres" class="img-fluid brand-logo">
+                <p>MRF</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/bridgestone_tyre.jpg" alt="CEAT tyres" class="img-fluid brand-logo">
+                <p>CEAT</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/goodyear_logo.png" alt="mrf tyres" class="img-fluid brand-logo">
+                <p>MRF</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/jk_tyres.png" alt="CEAT tyres" class="img-fluid brand-logo">
+                <p>CEAT</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/mrf-logo.png" alt="mrf tyres" class="img-fluid brand-logo">
+                <p>MRF</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/michelin_logo.png" alt="CEAT tyres" class="img-fluid brand-logo">
+                <p>CEAT</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/mrf-logo.png" alt="mrf tyres" class="img-fluid brand-logo">
+                <p>MRF</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/ceat-logo.avif" alt="CEAT tyres" class="img-fluid brand-logo">
+                <p>CEAT</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/apollo-tyres-brand-logo.png" alt="mrf tyres" class="img-fluid brand-logo">
+                <p>MRF</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/bridgestone_tyre.jpg" alt="CEAT tyres" class="img-fluid brand-logo">
+                <p>CEAT</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/goodyear_logo.png" alt="mrf tyres" class="img-fluid brand-logo">
+                <p>MRF</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/jk_tyres.png" alt="CEAT tyres" class="img-fluid brand-logo">
+                <p>CEAT</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/mrf-logo.png" alt="mrf tyres" class="img-fluid brand-logo">
+                <p>MRF</p>
+            </div>
+            <div class="text-center m-2 border shadow rounded px-3 py-1 flex-shrink-0">
+                <img src="src/images/michelin_logo.png" alt="CEAT tyres" class="img-fluid brand-logo">
+                <p>CEAT</p>
+            </div>
+            <!-- Repeat similar divs for other brands -->
+        </div>
+    </section>
+
+
+    <!-- Tyres options  -->
+
+    <section class="container m-5 p-4 ">
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>Tyres sold by this Dealer</h4>
+            <div class="d-flex ">
+                <select class="form-select me-2" aria-label="Filter By">
+                    <option selected>Filter By</option>
+                    <option value="1">Most Popular</option>
+                    <option value="2">Price Low to High</option>
+                    <option value="3">Price High to Low</option>
+                </select>
+                <button class="btn btn-outline-secondary">Advanced</button>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+            <!-- Card 1 -->
+            
+            <div class="col shadow rounded position-relative overflow-hidden m-5 w-25 h-50">
+                <div class="card border-light">
+                    <div class=" text-end">
+                        <span class="badge bg-warning">5 Year Warranty</span>
+                        <span class="badge bg-success ms-2">320 Reviews</span>
+                    </div>
+                    <div class="card-header bg-transparent p-3">
+                        <h5 class="card-title mb-0">Apollo AMAZER 4G LIFE</h5>
+                        <p class="card-text">145/80 R12</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-success fs-4">₹ 3,618</p>
+                        <p class="card-text text-secondary">Offer available</p>
+                    </div>
+                    <div>
+                        <img src="src/images/tyre-type.webp" alt="Apollo tyres" 
+                        class="position-absolute img-fluid" style=" bottom: -40px; right: -60px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col shadow rounded position-relative overflow-hidden m-5 w-25 h-50">
+                <div class="card border-light">
+                    <div class=" text-end">
+                        <span class="badge bg-warning">5 Year Warranty</span>
+                        <span class="badge bg-success ms-2">320 Reviews</span>
+                    </div>
+                    <div class="card-header bg-transparent p-3">
+                        <h5 class="card-title mb-0">Apollo AMAZER 4G LIFE</h5>
+                        <p class="card-text">145/80 R12</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-success fs-4">₹ 3,136</p>
+                        <p class="card-text text-secondary">Offer available</p>
+                    </div>
+                    <div>
+                        <img src="src/images/tyre-type.webp" alt="Apollo tyres" 
+                        class="position-absolute img-fluid" style=" bottom: -40px; right: -60px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col shadow rounded position-relative overflow-hidden m-5 w-25 h-50">
+                <div class="card border-light">
+                    <div class=" text-end">
+                        <span class="badge bg-warning">5 Year Warranty</span>
+                        <span class="badge bg-success ms-2">320 Reviews</span>
+                    </div>
+                    <div class="card-header bg-transparent p-3">
+                        <h5 class="card-title mb-0">Apollo AMAZER 4G LIFE</h5>
+                        <p class="card-text">145/80 R12</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-success fs-4">₹ 3,562</p>
+                        <p class="card-text text-secondary">Offer available</p>
+                    </div>
+                    <div>
+                        <img src="src/images/tyre-type.webp" alt="Apollo tyres" 
+                        class="position-absolute img-fluid" style=" bottom: -40px; right: -60px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col shadow rounded position-relative overflow-hidden m-5 w-25 h-50">
+                <div class="card border-light">
+                    <div class=" text-end">
+                        <span class="badge bg-warning">5 Year Warranty</span>
+                        <span class="badge bg-success ms-2">320 Reviews</span>
+                    </div>
+                    <div class="card-header bg-transparent p-3">
+                        <h5 class="card-title mb-0">Apollo AMAZER 4G LIFE</h5>
+                        <p class="card-text">145/80 R12</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-success fs-4">₹ 3,136</p>
+                        <p class="card-text text-secondary">Offer available</p>
+                    </div>
+                    <div>
+                        <img src="src/images/tyre-type.webp" alt="Apollo tyres" 
+                        class="position-absolute img-fluid" style=" bottom: -40px; right: -60px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col shadow rounded position-relative overflow-hidden m-5 w-25 h-50">
+                <div class="card border-light">
+                    <div class=" text-end">
+                        <span class="badge bg-warning">5 Year Warranty</span>
+                        <span class="badge bg-success ms-2">320 Reviews</span>
+                    </div>
+                    <div class="card-header bg-transparent p-3">
+                        <h5 class="card-title mb-0">Apollo AMAZER 4G LIFE</h5>
+                        <p class="card-text">145/80 R12</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-success fs-4">₹ 3,618</p>
+                        <p class="card-text text-secondary">Offer available</p>
+                    </div>
+                    <div>
+                        <img src="src/images/tyre-type.webp" alt="Apollo tyres" 
+                        class="position-absolute img-fluid" style=" bottom: -40px; right: -60px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col shadow rounded position-relative overflow-hidden m-5 w-25 h-50">
+                <div class="card border-light">
+                    <div class=" text-end">
+                        <span class="badge bg-warning">5 Year Warranty</span>
+                        <span class="badge bg-success ms-2">320 Reviews</span>
+                    </div>
+                    <div class="card-header bg-transparent p-3">
+                        <h5 class="card-title mb-0">Apollo AMAZER 4G LIFE</h5>
+                        <p class="card-text">145/80 R12</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-success fs-4">₹ 3,136</p>
+                        <p class="card-text text-secondary">Offer available</p>
+                    </div>
+                    <div>
+                        <img src="src/images/tyre-type.webp" alt="Apollo tyres" 
+                        class="position-absolute img-fluid" style=" bottom: -40px; right: -60px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col shadow rounded position-relative overflow-hidden m-5 w-25 h-50">
+                <div class="card border-light">
+                    <div class=" text-end">
+                        <span class="badge bg-warning">5 Year Warranty</span>
+                        <span class="badge bg-success ms-2">320 Reviews</span>
+                    </div>
+                    <div class="card-header bg-transparent p-3">
+                        <h5 class="card-title mb-0">Apollo AMAZER 4G LIFE</h5>
+                        <p class="card-text">145/80 R12</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-success fs-4">₹ 3,136</p>
+                        <p class="card-text text-secondary">Offer available</p>
+                    </div>
+                    <div>
+                        <img src="src/images/tyre-type.webp" alt="Apollo tyres" 
+                        class="position-absolute img-fluid" style=" bottom: -40px; right: -60px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col shadow rounded position-relative overflow-hidden m-5 w-25 h-50">
+                <div class="card border-light">
+                    <div class=" text-end">
+                        <span class="badge bg-warning">5 Year Warranty</span>
+                        <span class="badge bg-success ms-2">320 Reviews</span>
+                    </div>
+                    <div class="card-header bg-transparent p-3">
+                        <h5 class="card-title mb-0">Apollo AMAZER 4G LIFE</h5>
+                        <p class="card-text">145/80 R12</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-success fs-4">₹ 3,136</p>
+                        <p class="card-text text-secondary">Offer available</p>
+                    </div>
+                    <div>
+                        <img src="src/images/tyre-type.webp" alt="Apollo tyres" 
+                        class="position-absolute img-fluid" style=" bottom: -40px; right: -60px">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="text-center mt-4">
+            <button class="btn btn-outline-primary">View more</button>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./src/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
